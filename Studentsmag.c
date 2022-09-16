@@ -40,7 +40,7 @@ void displayStudate(S *disStu);
 // 6.查询学生记录
 void searchStudate();
 
-// 7.按平均成绩排序
+// 7.按平均成绩排序输出
 void sortArrdate();
 
 // 8.输出不及格学生
