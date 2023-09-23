@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /root/atomicals-js
+
 # 定义处理Ctrl+C的函数
 function ctrl_c() {
     echo "Ctrl+C Detected. Exiting..."
