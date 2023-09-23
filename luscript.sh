@@ -21,6 +21,8 @@ while true; do
     done
 
     # 运行完15次后，继续执行下面的命令
+    echo "Save the wallet and create a new wallet..."
     mv wallet.json "$(date +'%Y-%m-%d-%H-%M-%S').json"
     npm run cli wallet-init
+    echo "Success, continue..."
 done
