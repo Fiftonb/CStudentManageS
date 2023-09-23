@@ -17,7 +17,7 @@ while true; do
     # 运行命令的循环
     for ((i=1; i<=$iterations; i++)); do
         # 运行命令
-        npm run cli mint-dft icals
+        npm run cli mint-dft pepe
     done
 
     # 运行完15次后，继续执行下面的命令
