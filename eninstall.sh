@@ -16,3 +16,4 @@ cd atomicals-js
 npm install -g yarn
 npm install 
 npm run build
+npm run cli wallet-init
