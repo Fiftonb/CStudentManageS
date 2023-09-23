@@ -14,7 +14,7 @@ trap ctrl_c SIGINT
 # 无限循环
 while true; do
     # 设置循环次数
-    iterations=15
+    iterations=20
 
     # 运行命令的循环
     for ((i=1; i<=$iterations; i++)); do
