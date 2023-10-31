@@ -2,13 +2,16 @@
 wget https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-x64.tar.xz
 tar -xf node-v20.9.0-linux-x64.tar.xz
 cd node-v20.9.0-linux-x64
+
 vi ~/.bashrc
+#进入编辑以后，将下面的，写到末尾
 export PATH=/root/node-v20.9.0-linux-x64/bin:$PATH
+#然后按 键盘左上角ESC键，输入 :wq
+
 source ~/.bashrc
 node -v
 sudo apt-get update
 sudo apt-get install screen
-
 
 npm install -g @nocturne-xyz/nocturne-setup
 
@@ -21,6 +24,7 @@ https://github.com/RipplePiam/MobaXterm-Chinese-Simplified/releases/download/v0.
 客户端内终端 输入 ssh -X root@服务器IP
 
 nocturne-setup auth
+
 浏览器打开 https://github.com/login/device
 刚刚命令显示的输入验证码
 	
