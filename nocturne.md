@@ -1,3 +1,4 @@
+```
 wget https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-x64.tar.xz
 tar -xf node-v20.9.0-linux-x64.tar.xz
 cd node-v20.9.0-linux-x64
@@ -29,3 +30,4 @@ nocturne-setup contribute
 
 下次恢复对话
 screen -r sessionname
+```
