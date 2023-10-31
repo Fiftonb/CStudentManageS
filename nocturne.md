@@ -33,5 +33,5 @@ nocturne-setup contribute
 可以使用Ctrl+A，然后按下d键来将会话分离，并让程序在后台继续运行。
 
 下次恢复对话
-screen -r sessionname
+screen -r noct
 ```
